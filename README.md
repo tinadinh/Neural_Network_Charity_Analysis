@@ -34,6 +34,4 @@ What steps did you take to try and increase model performance?
 
 
 ## Summary:
-## There is a summary of the results (2 pt)
-## here is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
 The deep learning neural network model did not reach the target of 75% accuracy, this loss in accuracy can be explained from the fact that the model overfitted. We started with a data set and tried to predict whether or not the project would be successful on all of the features that we used after dropping two features that we figured to be irrelevant. Although I did not get to the accuracy of 75% that I wanted it is possible the reason for this is we may have had to drop more features which may have affected how good the neural network actually is. My recommendation is to increase the accuracy of the neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. It also has a faster performance than neural networks and could have avoided the data from being overfitted.
