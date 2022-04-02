@@ -1,7 +1,6 @@
 # Neural_Network_Charity_Analysis
 ## Overview of the loan prediction risk analysis:
-Alphabet Soup offers donations to charitable organizations. They want to ensure that their funds donated will be targeted towards a successful project.
-In order to select which applicants receive a donation, an analysis has been done using charity_data.csv, which consists of over 34,000 organizations that have been funded by Alphabet Soup in the past. With this data a neural network model has been created to predict which future applicants might be successful in their project when funded by Alphabet Soup. The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze and classify the success of charitable donations which will tell the customer whether or not the applicants will be successful using alphabet soup. 
+Alphabet Soup offers donations to charitable organizations. They want to ensure that their funds donated will be targeted towards a successful project. With the dataset, which contains over 34,000 organizations that have been funded by alphabet soup, a neural network model has been created to predict which future applicants might be successful in their project when funded by Alphabet Soup. The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze and classify the success of charitable donations which will tell the customer whether or not the applicants will be successful using alphabet soup. 
 
 This project is comprised of 3 steps: 
 - Preprocessing the data for the neural network
