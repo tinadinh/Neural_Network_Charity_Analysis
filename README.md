@@ -1,13 +1,15 @@
 # Neural_Network_Charity_Analysis
 ## Overview of the loan prediction risk analysis:
-## The purpose of this analysis is well defined (4 pt)
-Using my knowledge from machine learning and neural networks for this project I use the features in this dataset I create a binary classifier that will tell the customer whether or not the applicants will be successful using alphabet soup. The dataset contains over 34,000 organizations that have been funded by alphabet soup. There are a number of columns that capture the metadata of each organization such as organization type, the use of funding amongst others. This project is comprised of 3 steps: Preprocessing the data for the neural network, Compile,train and evaluate the model & finally optimizing the model.
-
 Alphabet Soup offers donations to charitable organizations. They want to ensure that their funds donated will be targeted towards a successful project.
-In order to select which applicants receive a donation, an analysis has been done using charity_data.csv, which consists of over 34,000 organizations that have been funded by Alphabet Soup in the past. With this data a neural network model has been created to predict which future applicants might be successful in their project when funded by Alphabet Soup.
+In order to select which applicants receive a donation, an analysis has been done using charity_data.csv, which consists of over 34,000 organizations that have been funded by Alphabet Soup in the past. With this data a neural network model has been created to predict which future applicants might be successful in their project when funded by Alphabet Soup. The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze and classify the success of charitable donations which will tell the customer whether or not the applicants will be successful using alphabet soup. 
+
+This project is comprised of 3 steps: 
+- Preprocessing the data for the neural network
+- Compile, train and evaluate the model 
+- Optimizing the model
+
 
 ## Results:
-## There is a bulleted list that answers all six questions (15 pt)
 ### Data Preprocessing
 What variable(s) are considered the target(s) for your model?
 - The variable we are targeting in this module is the IS_SUCCESSFUL column.
@@ -35,3 +37,4 @@ What steps did you take to try and increase model performance?
 ## Summary:
 ## There is a summary of the results (2 pt)
 ## here is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+The deep learning neural network model did not reach the target of 75% accuracy, this loss in accuracy can be explained from the fact that the model overfitted. We started with a data set and tried to predict whether or not the project would be successful on all of the features that we used after dropping two features that we figured to be irrelevant. Although I did not get to the accuracy of 75% that I wanted it is possible the reason for this is we may have had to drop more features which may have affected how good the neural network actually is. My recommendation is to increase the accuracy of the neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. It also has a faster performance than neural networks and could have avoided the data from being overfitted.
